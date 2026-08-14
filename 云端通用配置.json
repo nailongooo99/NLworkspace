@@ -52,13 +52,13 @@
     "archive_conflict": "skip"
   },
   "collector": {
-    "output_dir": "C:/Users/Administrator/Desktop/采集/0814上午短袖",
+    "output_dir": "C:/Users/Administrator/Desktop/采集/针织帽/0814下午针织帽",
     "max_items": 0,
-    "interval_ms": 1200,
+    "interval_ms": 3000,
     "idle_rounds": 5,
     "auto_advance": false,
     "advance_selector": "div[aria-label=\"查看更多商品\"]",
-    "filter_dir": "C:/Users/Administrator/Desktop/采集",
+    "filter_dir": "C:/Users/Administrator/Desktop/采集/针织帽",
     "cleanup_site": "temu.com",
     "advance_mode": "interaction",
     "network_url_match": "/api/alexa/homepage/goods_list",
@@ -89,6 +89,26 @@
     {
       "title": "chromecookie",
       "text": "chrome://settings/clearBrowserData"
+    },
+    {
+      "title": "印花T恤",
+      "text": "印花T恤"
+    },
+    {
+      "title": "针织帽印花",
+      "text": "针织帽印花"
+    },
+    {
+      "title": "印花针织帽关键词",
+      "text": "white ribbed knit beanie"
+    },
+    {
+      "title": "印花带logo针织帽关键词",
+      "text": "white embroidered beanie"
+    },
+    {
+      "title": "罗纹针织标签印花针织帽",
+      "text": "罗纹针织标签印花针织帽"
     }
   ],
   "inventory_history": [
@@ -247,9 +267,9 @@
   ],
   "ui": {
     "sidebar_collapsed": false,
-    "current_page": "image_links",
+    "current_page": "collector",
     "windows": {
-      "main": "1040x1008+871+0",
+      "main": "1054x1008+857+0",
       "element_picker": "850x650",
       "workflow_recorder": "1030x720",
       "window_layout": "740x660",
@@ -257,9 +277,9 @@
       "browser_actions": "650x455+234+234",
       "batch_zoom": "560x390",
       "quick_phrases": "760x560+714+272",
-      "settings": "700x560+26+26",
+      "settings": "700x560+405+234",
       "inventory_csv_preview": "760x430",
-      "dynamic_island": "430x48+745+6"
+      "dynamic_island": "430x48+1285+9"
     },
     "hubstudio_sashes": {
       "main_horizontal": 0,
