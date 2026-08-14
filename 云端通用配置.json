@@ -1,1 +1,271 @@
-1
+{
+  "schema_version": 5,
+  "app": {
+    "api_base": "http://127.0.0.1:6873",
+    "default_threads": 18,
+    "start_delay": 0.5,
+    "close_tabs_on_open": false,
+    "close_browser_after_run": false,
+    "topmost": false,
+    "dynamic_island": true,
+    "global_hotkeys_enabled": true,
+    "hotkey_main": "ctrl+alt+h",
+    "hotkey_phrases": "alt+a",
+    "hotkey_settings": "alt+q",
+    "hotkey_inventory_regenerate": "alt+w",
+    "hotkey_inventory_local_files": "alt+e",
+    "hotkey_collector_start": "alt+1"
+  },
+  "inventory": {
+    "sheet_info": "说明",
+    "sheet_stock": "仓库库存",
+    "col_sku": "货号",
+    "col_name": "商品名称",
+    "csv_delimiter": ";",
+    "stock_value": "999",
+    "start_row": 2,
+    "clear_before_write": false,
+    "auto_backup": false,
+    "fill_mode": "fixed",
+    "fill_column": "我仓库的现有库存量，件",
+    "cond_high": "999",
+    "cond_low": "0",
+    "last_csv": "C:\\Users\\Administrator\\Desktop\\我仓库中的库存_08.08.2026.csv",
+    "last_template": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+    "last_output": "C:\\Users\\Administrator\\Desktop\\我仓库中的库存_08.08.2026_OZON库存_20260808.xlsx",
+    "last_monitored_output": "",
+    "local_export_dir": "",
+    "monitor_output_changes": true,
+    "last_generated_rows": 0
+  },
+  "name_filter": {
+    "enabled": true,
+    "folder": "C:/Users/Administrator/Desktop/采集结果",
+    "threshold": 95.0,
+    "recursive": true,
+    "ignore_extension": true,
+    "auto_refresh": true,
+    "sound_alert": false,
+    "archive_enabled": false,
+    "download_folder": "C:/Users/Administrator/Downloads",
+    "archive_wait_minutes": 2.0,
+    "archive_conflict": "skip"
+  },
+  "collector": {
+    "output_dir": "C:/Users/Administrator/Desktop/采集/0814上午短袖",
+    "max_items": 0,
+    "interval_ms": 1200,
+    "idle_rounds": 5,
+    "auto_advance": false,
+    "advance_selector": "div[aria-label=\"查看更多商品\"]",
+    "filter_dir": "C:/Users/Administrator/Desktop/采集",
+    "cleanup_site": "temu.com",
+    "advance_mode": "interaction",
+    "network_url_match": "/api/alexa/homepage/goods_list",
+    "network_numeric_overrides_text": "{\"count\":120}",
+    "network_numeric_overrides": {
+      "count": 120
+    },
+    "network_increment_field": "offset",
+    "network_increment_start": null,
+    "network_increment_step": 40,
+    "network_response_items_path": "result.home_goods_list",
+    "network_response_success_path": "success",
+    "network_response_has_more_path": "result.has_more",
+    "network_expected_batch": 120,
+    "network_timeout_ms": 6000,
+    "network_render_wait_ms": 2600,
+    "network_success_delay_ms": 650
+  },
+  "quick_phrases": [
+    {
+      "title": "装饰牌富内容",
+      "text": "{\n  \"content\": [\n    {\n      \"widgetName\": \"raShowcase\",\n      \"type\": \"roll\",\n      \"blocks\": [\n        {\n          \"imgLink\": \"\",\n          \"img\": {\n            \"src\": \"https://ir-20.ozonstatic.cn/s3/multimedia-tmp-5/item-pic-0fd1dfc806ed00e5b1b915c1d676cd75.jpg\",\n            \"srcMobile\": \"https://ir-20.ozonstatic.cn/s3/multimedia-tmp-c/item-pic-e4d0a0123823abef0b07692a4aa1f6e6.jpg\",\n            \"alt\": \"\",\n            \"position\": \"width_full\",\n            \"positionMobile\": \"width_full\",\n            \"widthMobile\": 813,\n            \"heightMobile\": 544\n          }\n        }\n      ]\n    }\n  ],\n  \"version\": 0.3\n}"
+    },
+    {
+      "title": "待修改页面网址",
+      "text": "https://seller.ozon.ru/app/products/?filter=partial_approved&__rr=3"
+    },
+    {
+      "title": "chromecookie",
+      "text": "chrome://settings/clearBrowserData"
+    }
+  ],
+  "inventory_history": [
+    {
+      "time": "2026-08-08 16:15:24",
+      "status": "成功",
+      "rows": 297,
+      "warehouse": "arehouse (1020005023153650)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.22
+    },
+    {
+      "time": "2026-08-08 16:15:42",
+      "status": "成功",
+      "rows": 280,
+      "warehouse": "arehouse (1020005023154180)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    },
+    {
+      "time": "2026-08-08 16:15:56",
+      "status": "成功",
+      "rows": 289,
+      "warehouse": "arehouse (1020005023153710)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    },
+    {
+      "time": "2026-08-08 16:16:11",
+      "status": "成功",
+      "rows": 229,
+      "warehouse": "arehouse (1020005023154690)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.22
+    },
+    {
+      "time": "2026-08-08 16:16:27",
+      "status": "成功",
+      "rows": 266,
+      "warehouse": "arehouse (1020005023154600)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.26
+    },
+    {
+      "time": "2026-08-08 16:16:41",
+      "status": "成功",
+      "rows": 289,
+      "warehouse": "arehouse (1020005023154410)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    },
+    {
+      "time": "2026-08-08 16:17:06",
+      "status": "成功",
+      "rows": 280,
+      "warehouse": "arehouse (1020005023154280)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.21
+    },
+    {
+      "time": "2026-08-08 16:17:21",
+      "status": "成功",
+      "rows": 315,
+      "warehouse": "arehouse (1020005023154110)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    },
+    {
+      "time": "2026-08-08 16:17:41",
+      "status": "成功",
+      "rows": 296,
+      "warehouse": "arehouse (1020005023153890)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.21
+    },
+    {
+      "time": "2026-08-08 16:26:22",
+      "status": "成功",
+      "rows": 303,
+      "warehouse": "arehouse (1020005023154950)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.22
+    },
+    {
+      "time": "2026-08-08 16:33:09",
+      "status": "成功",
+      "rows": 303,
+      "warehouse": "arehouse (1020005023154950)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.22
+    },
+    {
+      "time": "2026-08-08 16:33:32",
+      "status": "成功",
+      "rows": 221,
+      "warehouse": "arehouse (1020005023155370)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.21
+    },
+    {
+      "time": "2026-08-08 16:33:46",
+      "status": "成功",
+      "rows": 220,
+      "warehouse": "arehouse (1020005023155150)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.32
+    },
+    {
+      "time": "2026-08-08 16:33:59",
+      "status": "成功",
+      "rows": 295,
+      "warehouse": "arehouse (1020005023155030)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    },
+    {
+      "time": "2026-08-08 16:34:17",
+      "status": "成功",
+      "rows": 224,
+      "warehouse": "arehouse (1020005023156270)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.21
+    },
+    {
+      "time": "2026-08-08 16:34:33",
+      "status": "成功",
+      "rows": 287,
+      "warehouse": "arehouse (1020005023155530)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.23
+    },
+    {
+      "time": "2026-08-08 16:34:48",
+      "status": "成功",
+      "rows": 298,
+      "warehouse": "arehouse (1020005023156080)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.22
+    },
+    {
+      "time": "2026-08-08 16:35:06",
+      "status": "成功",
+      "rows": 303,
+      "warehouse": "arehouse (1020005023156230)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.21
+    },
+    {
+      "time": "2026-08-08 16:35:26",
+      "status": "成功",
+      "rows": 290,
+      "warehouse": "arehouse (1020005023155310)",
+      "output": "C:\\Users\\Administrator\\Desktop\\用于更新所有仓库库存的模板_08.08.2026.xlsx",
+      "duration_s": 0.2
+    }
+  ],
+  "ui": {
+    "sidebar_collapsed": false,
+    "current_page": "image_links",
+    "windows": {
+      "main": "1040x1008+871+0",
+      "element_picker": "850x650",
+      "workflow_recorder": "1030x720",
+      "window_layout": "740x660",
+      "layout_visual_editor": "860x700",
+      "browser_actions": "650x455+234+234",
+      "batch_zoom": "560x390",
+      "quick_phrases": "760x560+714+272",
+      "settings": "700x560+26+26",
+      "inventory_csv_preview": "760x430",
+      "dynamic_island": "430x48+745+6"
+    },
+    "hubstudio_sashes": {
+      "main_horizontal": 0,
+      "right_vertical": 0,
+      "main_vertical_top": 471,
+      "main_vertical_exec": 591
+    }
+  }
+}
